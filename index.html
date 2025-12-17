@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3D Ludo Game</title>
+    <title>&#8358;land Ludo Game</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fredoka+One&display=swap");
 
@@ -1150,7 +1150,7 @@
         <div id="step-counter">1</div>
       </div>
       <div id="sidebar">
-        <h1>🎲 3D LUDO</h1>
+        <h1>🎲 &#8358;land Ludo</h1>
 
         <div class="panel" id="players-panel">
           <h3>Players</h3>
@@ -1206,11 +1206,12 @@
     <!-- Setup Modal -->
     <div id="setup-modal" class="modal show">
       <div class="modal-content">
-        <h2>🎮 Welcome to 3D Ludo!</h2>
+        <h2>🎮 Welcome to &#8358;land Ludo!</h2>
 
         <!-- Multiplayer Section -->
         <div class="multiplayer-section" id="multiplayer-section">
           <h4>🌐 Play Online or Local?</h4>
+          <h6>online play not stable yet, you can try it out it works with WEBRTC?</h6>
           <div class="multiplayer-btns" id="mp-mode-btns">
             <button class="mp-btn create" id="create-room-btn">
               🏠 Create Room
@@ -2796,16 +2797,16 @@
           const winner = players.find((p) => p.finishedTokens === numPieces);
           if (winner) {
             return (
-              `🎉 ${winner.name} won a game of 3D Ludo! 🏆\n\n` +
+              `🎉 ${winner.name} won a game of &#8358;land Ludo! 🏆\n\n` +
               `🎲 ${numPlayers} players • ${numPieces} pieces each\n` +
               `📊 Completed in ${turnNumber} turns\n\n` +
-              `Play 3D Ludo now! 🎮`
+              `Play &#8358;land Ludo now! 🎮`
             );
           }
         }
 
         return (
-          `🎲 I'm playing 3D Ludo!\n\n` +
+          `🎲 I'm playing &#8358;land Ludo!\n\n` +
           `👥 ${numPlayers} players battling it out\n` +
           `🎯 Currently on turn #${turnNumber}\n\n` +
           `Come join the fun! 🎮`
